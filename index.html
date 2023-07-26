@@ -191,8 +191,8 @@
     <!-- Header section-->
     <header class="container mx-auto">
         <!-- Navbar section-->
-        <div class="navbar bg-primary-pink rounded-full px-10 my-10">
-            <div class="navbar-start lg:hidden">
+        <div class="navbar bg-primary-pink rounded-full px-10 my-10 flex justify-between flex-row-reverse lg:flex-row">
+            <div class="lg:hidden">
                 <div class="dropdown">
                     <label tabindex="0" class="btn btn-ghost lg:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none"
@@ -210,7 +210,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="navbar-start hidden lg:flex">
+            <div class="hidden lg:flex">
                 <ul class="menu menu-horizontal px-1 text-white font-medium">
                     <li><a>Home</a></li>
                     <li><a>About Us</a></li>
@@ -220,17 +220,17 @@
             </div>
 
 
-            <div class="navbar-center gap-3">
+            <div class="gap-3">
                 <img src="images/logo.png" alt="">
                 <h3 class="text-4xl text-white font-bold">Fruit Brust</h3>
             </div>
 
-            <div class="navbar-end m-3">
+            <div class="hidden lg:block">
                 <button>
                     <input type="text" placeholder="Search here" class="input input-bordered w-full rounded-full" />
                 </button>
 
-                <div class="btn btn-ghost btn-circle absolute">
+                <div class="btn btn-ghost btn-circle absolute -ml-14">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                         stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
